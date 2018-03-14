@@ -91,6 +91,7 @@ function transition(name) {
 	}
 	
 	if (name === "group-by-amount"){ 
+		sound.currentTime=0;
 		sound.play();
 		$("#initial-content").fadeOut(250);
 		$("#value-scale").fadeOut(250);
