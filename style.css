@@ -49,25 +49,25 @@ li {
     position: absolute;
 }
 
-#+500000 {
+#morethan500000 {
     left: 200px;
     top: 200px;
     position: absolute;
 }
 
-#+5000000 {
+#morethan5000000 {
     left: 750px;
     top: 250px;
     position: absolute;
 }
 
-#+10000000 {
+#morethan10000000 {
     left: 150px;
     top: 800px;
     position: absolute;
 }
 
-#+20000000 {
+#morethan20000000 {
     left: 750px;
     top: 700px;
     position: absolute;
