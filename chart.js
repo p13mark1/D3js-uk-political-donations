@@ -7,6 +7,7 @@ var nodes = [];
 var force, node, data, maxVal;
 var brake = 0.2;
 var radius = d3.scale.sqrt().range([10, 20]);
+var list = []; //Donor list
 
 var partyCentres = { 
     con: { x: w / 3, y: h / 3.3}, 
@@ -416,6 +417,15 @@ function mouseover(d, i) {
 	var voicemessage= new SpeechSynthesisUtterance("The donator named " + donor + " who donated the amount of " + amount + " british pounds");
 	voicedonator.speak(voicemessage);
 	
+	//Add images
+	if ((list.indexOf(donor) > -1) == false) {	
+		var element = document.createElement("img");	
+		element.src = imageFile;	
+		element.setAttribute("height", "42");	
+		element.setAttribute("width", "42");
+
+		document.getElementById("images-sidebar").appendChild(element);	
+		list.push(donor);	
 	}
 
 function mouseout() {
