@@ -383,6 +383,7 @@ function mouseover(d, i) {
 	var party = d.partyLabel;
 	var entity = d.entityLabel;
 	var offset = $("svg").offset();
+	this.style.cursor="pointer";
 	
 
 
