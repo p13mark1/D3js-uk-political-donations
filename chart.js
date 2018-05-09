@@ -427,6 +427,10 @@ function mouseover(d, i) {
 		document.getElementById("images-sidebar").appendChild(element);	
 		dlist.push(donor);	
 	}
+	
+	
+	
+	}
 
 function mouseout() {
 	// no more tooltips
