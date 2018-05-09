@@ -30,6 +30,16 @@ li {
     display: none;
 }
 
+/* Images  */
+#images-sidebar {
+    /* background-color: lightblue; */
+    position: absolute;
+    left: 1045px;
+    width: 288px;
+    height: 42px;
+    top: 106px;
+}
+
 /* View containers */
 #initial-content, #view-source-type {
     left: 650px;
